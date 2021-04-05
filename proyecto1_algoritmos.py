@@ -30,7 +30,7 @@ class Grafo:
   def __init__(self,id="grafo",dirigido=False, auto=False):
     self.id=id
     self.nodos={}
-    self.aristas=[]
+    self.aristas={}
     self.dirigido=dirigido
     self.auto=auto
 
@@ -41,7 +41,7 @@ class Grafo:
   def agregar_arista(self,source,target):
     try:
       nueva_arista = Arista(self.nodos[source],self.nodos[target])
-      self.aristas.append(nueva_arista)
+      self.aristas[nueva_arista.id]=nueva_arista
     except:
       print('***Error - Checar que los nodos se hayan decalarado previamente!***')
 
@@ -53,12 +53,12 @@ class Grafo:
 
   def nodosConectados(self,nodo):
     nodos_conectados=[]
-    for arista in self.aristas:
-      if(arista.source == self.nodos[nodo]):
-        nodos_conectados.append(str(arista.target))
+    for key, value in self.aristas.items():
+      if(value.source == self.nodos[nodo]):
+        nodos_conectados.append(str(value.target))
       if(not self.dirigido): #Si no es un grafo dirigido
-        if(arista.target==self.nodos[nodo]):
-          nodos_conectados.append(str(arista.source)) 
+        if(value.target==self.nodos[nodo]):
+          nodos_conectados.append(str(value.source)) 
 
     return nodos_conectados
 
@@ -70,8 +70,11 @@ class Grafo:
     else:
        contenido+='edge [color=purple3]\n'
 
-    for arista in self.aristas:
-      contenido+=arista.id+';\n'
+    for nodo in self.nodos: #imprimir nodos
+      contenido+=str(nodo)+';\n'
+
+    for key, value in self.aristas.items(): #imprimir aristas
+      contenido+= value.id+';\n'
 
     contenido+='}'
 
@@ -118,5 +121,30 @@ grafo.agregar_arista(10,11)
 grafo.graphviz()
 grafo.display()
 
+grafo.nodosConectados(8)
+
 import graphviz
 graphviz.Source.from_file(grafo.id+'.gv')
+
+def grafoErdosRenyi(n, m, dirigido=False, auto=False):
+  '''
+  Genera grafo aleatorio con el modelo Erdos-Renyi
+  :param n: número de nodos (> 0)
+  :param m: número de aristas (>= n-1)
+  :param dirigido: el grafo es dirigido?
+  :param auto: permitir auto-ciclos?
+  :return: grafo generado
+  '''
+  #Generar objeto grafo
+  nombre='grafoErdosRenyi_n_'+str(n)+'_m_'+str(m)
+  grafo = Grafo(nombre,dirigido,auto)
+
+  #Generar n nodos
+  for i in range(n):
+    grafo.agregar_nodo(i)
+  return grafo
+
+#grafoErdosRenyi
+gfErdosReny = grafoErdosRenyi(10, 5, dirigido=False, auto=False)
+gfErdosReny.graphviz()
+gfErdosReny.display()
