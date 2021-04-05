@@ -7,6 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1PSgf3wF6b3WsY3Of8-yodyOIa4B0H60S
 """
 
+# generate random integer values
+from random import seed
+from random import randint
+# seed random number generator
+seed(1)
+
 #Clase Nodo
 class Nodo:
   def __init__(self, id):
@@ -51,6 +57,17 @@ class Grafo:
   def totalAristas(self):
     return len(self.aristas)
 
+  def checarSiAristaExiste(self,source,target):
+    nueva_arista = Arista(self.nodos[source],self.nodos[target])
+    nueva_arista2 = Arista(self.nodos[target],self.nodos[source])
+    if nueva_arista.id in self.aristas:
+      return True
+    if(not self.dirigido): #Si no es un grafo dirigido
+      if nueva_arista2.id in self.aristas:
+        return True
+    return False
+
+
   def nodosConectados(self,nodo):
     nodos_conectados=[]
     for key, value in self.aristas.items():
@@ -92,6 +109,7 @@ class Grafo:
       print('arista: '+ str(arista))
 
 grafo = Grafo(id='ejemplo2',dirigido=False,auto=False)
+#grafo = Grafo(id='ejemplo2',dirigido=True,auto=False)
 
 #            2
 #           /
@@ -123,6 +141,8 @@ grafo.display()
 
 grafo.nodosConectados(8)
 
+grafo.checarSiAristaExiste(8,1)
+
 import graphviz
 graphviz.Source.from_file(grafo.id+'.gv')
 
@@ -142,9 +162,29 @@ def grafoErdosRenyi(n, m, dirigido=False, auto=False):
   #Generar n nodos
   for i in range(n):
     grafo.agregar_nodo(i)
+
+  #Elegir dos nodos de manera aleatoria y crear una arista entre los nodos, evitar si ya existe la arista, repetir m veces
+  count=0
+  while(count<m):
+    nodo1 = randint(0, n-1)
+    nodo2 = randint(0, n-1)
+    if not auto: #Si no existe autociclos
+      if nodo1 == nodo2: #Es un autociclo
+        continue; #Genera una nueva iteración
+    if not grafo.checarSiAristaExiste(nodo1,nodo2): #Agregar arista si no existe
+      grafo.agregar_arista(nodo1,nodo2)
+      count+=1
+
   return grafo
 
 #grafoErdosRenyi
-gfErdosReny = grafoErdosRenyi(10, 5, dirigido=False, auto=False)
+gfErdosReny = grafoErdosRenyi(n=30, m=30, dirigido=False, auto=False)
 gfErdosReny.graphviz()
-gfErdosReny.display()
+
+#grafoErdosRenyi
+gfErdosReny = grafoErdosRenyi(n=100, m=100, dirigido=False, auto=False)
+gfErdosReny.graphviz()
+
+#grafoErdosRenyi
+gfErdosReny = grafoErdosRenyi(n=500, m=500, dirigido=False, auto=False)
+gfErdosReny.graphviz()
