@@ -10,6 +10,7 @@ Original file is located at
 # generate random integer values
 from random import seed
 from random import randint
+from random import random
 # seed random number generator
 seed(1)
 
@@ -171,7 +172,7 @@ def grafoErdosRenyi(n, m, dirigido=False, auto=False):
     if not auto: #Si no existe autociclos
       if nodo1 == nodo2: #Es un autociclo
         continue; #Genera una nueva iteración
-    if not grafo.checarSiAristaExiste(nodo1,nodo2): #Agregar arista si no existe
+    if not grafo.checarSiAristaExiste(nodo1,nodo2): #Agregar arista si todavía no existe
       grafo.agregar_arista(nodo1,nodo2)
       count+=1
 
@@ -188,3 +189,46 @@ gfErdosReny.graphviz()
 #grafoErdosRenyi
 gfErdosReny = grafoErdosRenyi(n=500, m=500, dirigido=False, auto=False)
 gfErdosReny.graphviz()
+
+def grafoGilbert(n, p, dirigido=False, auto=False):
+  '''
+  Genera grafo aleatorio con el modelo Gilbert
+  :param n: número de nodos (> 0)
+  :param p: probabilidad de crear una arista (0, 1)
+  :param dirigido: el grafo es dirigido?
+  :param auto: permitir auto-ciclos?
+  :return: grafo generado
+  '''
+  #Generar objeto grafo
+  nombre='grafoGilbert_n_'+str(n)+'_p_'+str(int(p*100))
+  grafo = Grafo(nombre,dirigido,auto)
+
+  #Generar n nodos
+  for i in range(n):
+    grafo.agregar_nodo(i)
+
+  #Evaluar cada pareja de nodos, crear una arista entre ellos con probabilidad p
+  for i in range(n):
+    for j in range(n):
+      aleatorio = random() #Generar un número aleatorio
+      if not aleatorio<=p: #Evitar arista si no se cumple la probabilidad
+        continue
+      if not auto: #Si no existe autociclos
+        if i == j: #Es un autociclo
+          continue; #Evitar arista si no hay autociclos
+      if not grafo.checarSiAristaExiste(i,j): #Agregar arista si todavía no existe
+        grafo.agregar_arista(i,j)    
+
+  return grafo
+
+#grafoGilbert
+gfGilbert = grafoGilbert(n=30, p=0.1, dirigido=False, auto=False)
+gfGilbert.graphviz()
+
+#grafoGilbert
+gfGilbert = grafoGilbert(n=100, p=0.1, dirigido=False, auto=False)
+gfGilbert.graphviz()
+
+#grafoGilbert
+gfGilbert = grafoGilbert(n=500, p=0.1, dirigido=False, auto=False)
+gfGilbert.graphviz()
