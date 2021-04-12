@@ -108,6 +108,8 @@ gfMalla.graphviz()
 <img src="/img/grafoMalla_m_50_n_10.png" width="500" />
 
 > 500 Nodos y 940 Aristas
+ 
+---
 
 ## Modelo Gn,m de Erdös y Rényi
 - n: número de nodos (> 0)
