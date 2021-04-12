@@ -142,21 +142,21 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 ## Variante del modelo Gn,d **Barabási-Albert**
 - n: número de nodos (> 0)
-- r: distancia máxima para crear un nodo (0, 1)
+- d: grado máximo esperado por cada nodo (> 1)
 - dirigido: el grafo es dirigido?
 - auto: permitir auto-ciclos?
 
 ### 30 nodos
-**n = 30, r = 0.3, dirigido = False, auto=False**
+**n = 30, d = 4, dirigido = False, auto=False**
 
-<img src="/img/grafoGeografico_n_30_r_3.png" width="500" />
+<img src="/img/grafoBarabasiAlbert_n_30_d_4.png" width="500" />
 
 ### 100 nodos
-**n = 100, r = 0.3, dirigido = False, auto=False**
+**n = 100, d = 4, dirigido = False, auto=False**
 
-<img src="/img/grafoGeografico_n_100_r_3.png" width="500" />
+<img src="/img/grafoBarabasiAlbert_n_100_d_4.png" width="500" />
 
 ### 500 nodos
-**n = 500, r = 0.1, dirigido = False, auto=False**
+**n =500, d = 4, dirigido = False, auto=False**
 
-<img src="/img/grafoGeografico_n_500_r_1.png" width="500" />
+<img src="/img/grafoBarabasiAlbert_n_500_d_4.png" width="500" />
