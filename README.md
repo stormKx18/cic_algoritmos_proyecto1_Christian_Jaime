@@ -71,6 +71,14 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 > 30 Nodos y 49 Aristas
 
+**Código Python:** 
+```
+from grafoMalla import grafoMalla
+gfMalla = grafoMalla(6,5,dirigido=False)
+gfMalla.display()
+gfMalla.graphviz()
+```
+
 ### 100 nodos
 **m = 25, n = 4, dirigido = False**
 
@@ -78,12 +86,28 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 > 100 Nodos y 171 Aristas
 
+**Código Python:** 
+```
+from grafoMalla import grafoMalla
+gfMalla = grafoMalla(25,4,dirigido=False)
+gfMalla.display()
+gfMalla.graphviz()
+```
+
 ### 500 nodos
 **m = 50, n = 10, dirigido = False**
 
 <img src="/img/grafoMalla_m_50_n_10.png" width="500" />
 
 > 500 Nodos y 940 Aristas
+
+**Código Python:** 
+```
+from grafoMalla import grafoMalla
+gfMalla = grafoMalla(50,10,dirigido=False)
+gfMalla.display()
+gfMalla.graphviz()
+```
 
 ## Modelo Gn,m de Erdös y Rényi
 - n: número de nodos (> 0)
