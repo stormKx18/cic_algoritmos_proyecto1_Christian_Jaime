@@ -48,7 +48,7 @@ gfGilbert.display()
 gfGilbert.graphviz()
 
 #grafoGilbert - 500 nodos
-gfGilbert = grafoGilbert(n=500, p=0.1, dirigido=False, auto=False)
+gfGilbert = grafoGilbert(n=500, p=0.03, dirigido=False, auto=False)
 gfGilbert.display()
 gfGilbert.graphviz()
 #******************************************************************************
@@ -66,7 +66,7 @@ gfGeografico.display()
 gfGeografico.graphviz()
 
 #grafoGeografico - 500 nodos
-gfGeografico = grafoGeografico(n=500, r=0.3, dirigido=False, auto=False)
+gfGeografico = grafoGeografico(n=500, r=0.1, dirigido=False, auto=False)
 gfGeografico.display()
 gfGeografico.graphviz()
 #******************************************************************************
