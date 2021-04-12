@@ -16,7 +16,7 @@
 
 ---
 
-### Instrucciones
+## Instrucciones
 
 Escribir una biblioteca orientada a objetos, en Python 3.6, para describir
 y utilizar grafos. Debe, por lo menos contar con una clase llamada Grafo,
@@ -42,6 +42,6 @@ Entregar:
 sugiere utilizar Gephi (https://gephi.org/).
 
 
-### Resultados
+## Resultados
 
 Los archivos GV generados se pueden encontrar aquí:
