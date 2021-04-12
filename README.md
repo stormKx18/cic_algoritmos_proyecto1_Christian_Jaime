@@ -1,5 +1,7 @@
 # Proyecto 1 - Biblioteca de generación y manejo de grafos
 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
 **INSTITUTO POLITÉCNICO NACIONAL**
 
 **Centro de Investigación en Computación**
@@ -217,5 +219,3 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 > 500 Nodos y 997 Aristas
 
 ---
-
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
