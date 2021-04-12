@@ -67,6 +67,10 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoMalla_m_6_n_5.png" width="500" />
 
+> 30 Nodos y 49 Aristas
+
+*30 Nodos y 49 Aristas*
+
 ### 100 nodos
 **m = 25, n = 4, dirigido = False**
 
