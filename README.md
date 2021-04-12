@@ -30,3 +30,5 @@ generación:
 - Modelo Gn,r **geográfico simple**
 - Variante del modelo Gn,d **Barabási-Albert**
 - Modelo Gn **Dorogovtsev-Mendes**
+
+<a href="Instrucciones - Proyecto 1 - Biblioteca de generación y manejo de grafos.pdf" class="image fit" type="application/pdf">Instrucciones - Proyecto 1</a>
