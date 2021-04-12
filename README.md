@@ -34,7 +34,7 @@ generación:
 - Modelo Gn **Dorogovtsev-Mendes**
 
 La clase grafo debe contar con un método para guardar el grafo en un
-archivo con formato GraphViz (simple).
+archivo con formato **GraphViz** (simple).
 
 Entregar:
 1. Link del repositorio en un servidor **GIT** (sugerido **GitHub**)
@@ -56,3 +56,13 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 - Se utilizó el siguiente script para generar todos los grafos de este proyecto: [ejemplos.py](/src/ejemplos.py)
 
 ---
+
+## Malla
+- m: número de columnas 
+- n: número de filas
+- dirigido: el grafo es dirigido
+
+### 30 nodos
+**m = 6, n = 5,  dirigido = False**
+
+<img src="/img/grafoMalla_m_6_n_5.png" width="500" />
