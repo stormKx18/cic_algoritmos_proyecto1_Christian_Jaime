@@ -215,3 +215,7 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 <img src="/img/grafoDorogovtsevMendes_n_500.png" width="500" />
 
 > 500 Nodos y 997 Aristas
+
+---
+
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
