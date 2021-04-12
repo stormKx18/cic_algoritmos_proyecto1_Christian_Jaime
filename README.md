@@ -1,6 +1,8 @@
 # Proyecto 1 - Biblioteca de generación y manejo de grafos
 
-## INSTITUTO POLITÉCNICO NACIONAL - Centro de Investigación en Computación
+**INSTITUTO POLITÉCNICO NACIONAL**
+
+**Centro de Investigación en Computación**
 
 **PRESENTA** Victor Christian Jaime Tamayo
 
@@ -41,6 +43,7 @@ Entregar:
 3. Imágenes creadas con los grafos generados, 18 en total. Se
 sugiere utilizar Gephi (https://gephi.org/).
 
+---
 
 ## Resultados
 
@@ -49,5 +52,7 @@ Archivos GV generados: [graphviz](/graphviz)
 Código fuente: [src](/src)
 
 Imágenes: [img](/img)
+
+Se utilizó el siguiente script para generar todos los grafos de este proyecto: [ejemplos.py](/src/ejemplos.py)
 
 ---
