@@ -98,3 +98,24 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoErdosRenyi_n_500_m_500.png" width="500" />
 
+## Modelo Gn,p de **Gilbert**
+- n: número de nodos (> 0)
+- p: probabilidad de crear una arista (0, 1)
+- dirigido: el grafo es dirigido?
+- auto: permitir auto-ciclos?
+
+### 30 nodos
+**n = 30, p = 0.1, dirigido = False, auto=False**
+
+<img src="/img/grafoGilbert_n_30_p_10.png" width="500" />
+
+### 100 nodos
+**n = 100, p = 0.1, dirigido = False, auto=False**
+
+<img src="/img/grafoGilbert_n_100_p_10.png" width="500" />
+
+### 500 nodos
+**n = 500, p = 0.03, dirigido = False, auto=False**
+
+<img src="/img/grafoGilbert_n_500_p_3.png" width="500" />
+
