@@ -1,1 +1,1 @@
-# algoritmos_A210232
+# Proyecto 1 - Biblioteca de generación y manejo de grafos
