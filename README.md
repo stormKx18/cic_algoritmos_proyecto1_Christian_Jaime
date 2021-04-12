@@ -119,3 +119,25 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoGilbert_n_500_p_3.png" width="500" />
 
+## Modelo Gn,r **geográfico simple**
+- n: número de nodos (> 0)
+- r: distancia máxima para crear un nodo (0, 1)
+- dirigido: el grafo es dirigido?
+- auto: permitir auto-ciclos?
+
+### 30 nodos
+**n = 30, r = 0.3, dirigido = False, auto=False**
+
+<img src="/img/grafoGeografico_n_30_r_3.png" width="500" />
+
+### 100 nodos
+**n = 100, r = 0.3, dirigido = False, auto=False**
+
+<img src="/img/grafoGeografico_n_100_r_3.png" width="500" />
+
+### 500 nodos
+**n = 500, r = 0.1, dirigido = False, auto=False**
+
+<img src="/img/grafoGeografico_n_500_r_1.png" width="500" />
+
+
