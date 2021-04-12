@@ -24,9 +24,9 @@ una clase llamada Nodo y una clase llamada Arista. Asimismo, se deben
 realizar funciones para generar grafos con los siguientes modelos de
 generación:
 
-- Modelo Gm,n de malla
-- Modelo Gn,m de Erdös y Rényi
-- Modelo Gn,p de Gilbert
-- Modelo Gn,r geográfico simple
-- Variante del modelo Gn,d Barabási-Albert
-- Modelo Gn Dorogovtsev-Mendes
+- Modelo Gm,n de **malla**
+- Modelo Gn,m de **Erdös y Rényi**
+- Modelo Gn,p de **Gilbert**
+- Modelo Gn,r **geográfico simple**
+- Variante del modelo Gn,d **Barabási-Albert**
+- Modelo Gn **Dorogovtsev-Mendes**
