@@ -67,10 +67,6 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 ### 30 nodos
 **m = 6, n = 5, dirigido = False**
 
-<img src="/img/grafoMalla_m_6_n_5.png" width="500" />
-
-> 30 Nodos y 49 Aristas
-
 **Código Python:** 
 ```
 from grafoMalla import grafoMalla
@@ -79,12 +75,12 @@ gfMalla.display()
 gfMalla.graphviz()
 ```
 
+<img src="/img/grafoMalla_m_6_n_5.png" width="500" />
+
+> 30 Nodos y 49 Aristas
+
 ### 100 nodos
 **m = 25, n = 4, dirigido = False**
-
-<img src="/img/grafoMalla_m_25_n_4.png" width="500" />
-
-> 100 Nodos y 171 Aristas
 
 **Código Python:** 
 ```
@@ -94,12 +90,12 @@ gfMalla.display()
 gfMalla.graphviz()
 ```
 
+<img src="/img/grafoMalla_m_25_n_4.png" width="500" />
+
+> 100 Nodos y 171 Aristas
+
 ### 500 nodos
 **m = 50, n = 10, dirigido = False**
-
-<img src="/img/grafoMalla_m_50_n_10.png" width="500" />
-
-> 500 Nodos y 940 Aristas
 
 **Código Python:** 
 ```
@@ -108,6 +104,10 @@ gfMalla = grafoMalla(50,10,dirigido=False)
 gfMalla.display()
 gfMalla.graphviz()
 ```
+
+<img src="/img/grafoMalla_m_50_n_10.png" width="500" />
+
+> 500 Nodos y 940 Aristas
 
 ## Modelo Gn,m de Erdös y Rényi
 - n: número de nodos (> 0)
@@ -118,6 +118,14 @@ gfMalla.graphviz()
 ### 30 nodos
 **n = 30, m = 30, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoErdosRenyi import grafoErdosRenyi
+gfErdosReny = grafoErdosRenyi(n=30, m=30, dirigido=False, auto=False)
+gfErdosReny.display()
+gfErdosReny.graphviz()
+```
+
 <img src="/img/grafoErdosRenyi_n_30_m_30.png" width="500" />
 
 > 30 Nodos y 30 Aristas
@@ -125,12 +133,28 @@ gfMalla.graphviz()
 ### 100 nodos
 **n = 100, m = 100, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoErdosRenyi import grafoErdosRenyi
+gfErdosReny = grafoErdosRenyi(n=100, m=100, dirigido=False, auto=False)
+gfErdosReny.display()
+gfErdosReny.graphviz()
+```
+
 <img src="/img/grafoErdosRenyi_n_100_m_100.png" width="500" />
 
 > 100 Nodos y 100 Aristas
 
 ### 500 nodos
 **n = 500, m = 500, dirigido = False, auto=False**
+
+**Código Python:** 
+```
+from grafoErdosRenyi import grafoErdosRenyi
+gfErdosReny = grafoErdosRenyi(n=500, m=500, dirigido=False, auto=False)
+gfErdosReny.display()
+gfErdosReny.graphviz()
+```
 
 <img src="/img/grafoErdosRenyi_n_500_m_500.png" width="500" />
 
