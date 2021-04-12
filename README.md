@@ -121,15 +121,21 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoGilbert_n_30_p_10.png" width="500" />
 
+> 30 Nodos y 75 Aristas
+
 ### 100 nodos
 **n = 100, p = 0.1, dirigido = False, auto=False**
 
 <img src="/img/grafoGilbert_n_100_p_10.png" width="500" />
 
+> 100 Nodos y 915 Aristas
+
 ### 500 nodos
 **n = 500, p = 0.03, dirigido = False, auto=False**
 
 <img src="/img/grafoGilbert_n_500_p_3.png" width="500" />
+
+> 500 Nodos y 7,263 Aristas
 
 ## Modelo Gn,r **geográfico simple**
 - n: número de nodos (> 0)
