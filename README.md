@@ -16,4 +16,17 @@
 
 ---
 
+### Instrucciones
 
+Escribir una biblioteca orientada a objetos, en Python 3.6, para describir
+y utilizar grafos. Debe, por lo menos contar con una clase llamada Grafo,
+una clase llamada Nodo y una clase llamada Arista. Asimismo, se deben
+realizar funciones para generar grafos con los siguientes modelos de
+generación:
+
+- Modelo Gm,n de malla
+- Modelo Gn,m de Erdös y Rényi
+- Modelo Gn,p de Gilbert
+- Modelo Gn,r geográfico simple
+- Variante del modelo Gn,d Barabási-Albert
+- Modelo Gn Dorogovtsev-Mendes
