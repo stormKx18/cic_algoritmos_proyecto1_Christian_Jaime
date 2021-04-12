@@ -66,3 +66,13 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 **m = 6, n = 5,  dirigido = False**
 
 <img src="/img/grafoMalla_m_6_n_5.png" width="500" />
+
+### 100 nodos
+**m = 25, n = 4,  dirigido = False**
+
+<img src="/img/grafoMalla_m_25_n_4.png" width="500" />
+
+### 500 nodos
+**m = 50, n = 10,  dirigido = False**
+
+<img src="/img/grafoMalla_m_50_n_10.png" width="500" />
