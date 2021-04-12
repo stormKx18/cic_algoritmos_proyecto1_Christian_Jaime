@@ -44,4 +44,10 @@ sugiere utilizar Gephi (https://gephi.org/).
 
 ## Resultados
 
-Los archivos GV generados se pueden encontrar aquí:
+Archivos GV generados: [graphviz](/graphviz)
+
+Código fuente: [src](/src)
+
+Imágenes: [img](/img)
+
+---
