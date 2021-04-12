@@ -79,6 +79,8 @@ gfMalla.graphviz()
 
 > 30 Nodos y 49 Aristas
 
+##
+
 ### 100 nodos
 **m = 25, n = 4, dirigido = False**
 
@@ -93,6 +95,8 @@ gfMalla.graphviz()
 <img src="/img/grafoMalla_m_25_n_4.png" width="500" />
 
 > 100 Nodos y 171 Aristas
+ 
+##
 
 ### 500 nodos
 **m = 50, n = 10, dirigido = False**
@@ -132,6 +136,8 @@ gfErdosReny.graphviz()
 
 > 30 Nodos y 30 Aristas
 
+##
+
 ### 100 nodos
 **n = 100, m = 100, dirigido = False, auto=False**
 
@@ -146,6 +152,8 @@ gfErdosReny.graphviz()
 <img src="/img/grafoErdosRenyi_n_100_m_100.png" width="500" />
 
 > 100 Nodos y 100 Aristas
+
+##
 
 ### 500 nodos
 **n = 500, m = 500, dirigido = False, auto=False**
@@ -185,6 +193,8 @@ gfGilbert.graphviz()
 
 > 30 Nodos y 75 Aristas
 
+##
+
 ### 100 nodos
 **n = 100, p = 0.1, dirigido = False, auto=False**
 
@@ -199,6 +209,8 @@ gfGilbert.graphviz()
 <img src="/img/grafoGilbert_n_100_p_10.png" width="500" />
 
 > 100 Nodos y 915 Aristas
+
+##
 
 ### 500 nodos
 **n = 500, p = 0.03, dirigido = False, auto=False**
@@ -238,6 +250,8 @@ gfGeografico.graphviz()
 
 > 30 Nodos y 92 Aristas
 
+##
+
 ### 100 nodos
 **n = 100, r = 0.3, dirigido = False, auto=False**
 
@@ -252,6 +266,8 @@ gfGeografico.graphviz()
 <img src="/img/grafoGeografico_n_100_r_3.png" width="500" />
 
 > 100 Nodos y 999 Aristas
+
+##
 
 ### 500 nodos
 **n = 500, r = 0.1, dirigido = False, auto=False**
@@ -291,6 +307,8 @@ gfBarabasiAlbert.graphviz()
 
 > 30 Nodos y 58 Aristas
 
+##
+
 ### 100 nodos
 **n = 100, d = 4, dirigido = False, auto=False**
 
@@ -305,6 +323,8 @@ gfBarabasiAlbert.graphviz()
 <img src="/img/grafoBarabasiAlbert_n_100_d_4.png" width="500" />
 
 > 100 Nodos y 197 Aristas
+
+##
 
 ### 500 nodos
 **n =500, d = 4, dirigido = False, auto=False**
@@ -342,6 +362,8 @@ gfDorogovtsevMendes.graphviz()
 
 > 30 Nodos y 57 Aristas
 
+##
+
 ### 100 nodos
 **n = 100, dirigido = False**
 
@@ -356,6 +378,8 @@ gfDorogovtsevMendes.graphviz()
 <img src="/img/grafoDorogovtsevMendes_n_100.png" width="500" />
 
 > 100 Nodos y 197 Aristas
+
+##
 
 ### 500 nodos
 **n = 500, dirigido = False**
