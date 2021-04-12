@@ -69,17 +69,19 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 > 30 Nodos y 49 Aristas
 
-*30 Nodos y 49 Aristas*
-
 ### 100 nodos
 **m = 25, n = 4, dirigido = False**
 
 <img src="/img/grafoMalla_m_25_n_4.png" width="500" />
 
+> 100 Nodos y 171 Aristas
+
 ### 500 nodos
 **m = 50, n = 10, dirigido = False**
 
 <img src="/img/grafoMalla_m_50_n_10.png" width="500" />
+
+> 500 Nodos y 940 Aristas
 
 ## Modelo Gn,m de Erdös y Rényi
 - n: número de nodos (> 0)
@@ -92,15 +94,21 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoErdosRenyi_n_30_m_30.png" width="500" />
 
+> 30 Nodos y 30 Aristas
+
 ### 100 nodos
 **n = 100, m = 100, dirigido = False, auto=False**
 
 <img src="/img/grafoErdosRenyi_n_100_m_100.png" width="500" />
 
+> 100 Nodos y 100 Aristas
+
 ### 500 nodos
 **n = 500, m = 500, dirigido = False, auto=False**
 
 <img src="/img/grafoErdosRenyi_n_500_m_500.png" width="500" />
+
+> 500 Nodos y 500 Aristas
 
 ## Modelo Gn,p de **Gilbert**
 - n: número de nodos (> 0)
