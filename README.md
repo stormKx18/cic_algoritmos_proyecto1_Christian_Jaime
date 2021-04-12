@@ -57,22 +57,44 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 ---
 
-## Malla
+## Modelo Gm,n de malla
 - m: número de columnas 
 - n: número de filas
 - dirigido: el grafo es dirigido
 
 ### 30 nodos
-**m = 6, n = 5,  dirigido = False**
+**m = 6, n = 5, dirigido = False**
 
 <img src="/img/grafoMalla_m_6_n_5.png" width="500" />
 
 ### 100 nodos
-**m = 25, n = 4,  dirigido = False**
+**m = 25, n = 4, dirigido = False**
 
 <img src="/img/grafoMalla_m_25_n_4.png" width="500" />
 
 ### 500 nodos
-**m = 50, n = 10,  dirigido = False**
+**m = 50, n = 10, dirigido = False**
 
 <img src="/img/grafoMalla_m_50_n_10.png" width="500" />
+
+## Modelo Gn,m de Erdös y Rényi
+- n: número de nodos (> 0)
+- m: número de aristas (>= n-1)
+- dirigido: el grafo es dirigido?
+- auto: permitir auto-ciclos?
+
+### 30 nodos
+**n = 30, m = 30, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_30_m_30.png" width="500" />
+
+### 100 nodos
+**n = 100, m = 100, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_100_m_100.png" width="500" />
+
+### 500 nodos
+**n = 500, m = 500, dirigido = False, auto=False**
+
+<img src="/img/grafoErdosRenyi_n_500_m_500.png" width="500" />
+
