@@ -64,6 +64,8 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 - n: número de filas
 - dirigido: el grafo es dirigido
 
+##
+
 ### 30 nodos
 **m = 6, n = 5, dirigido = False**
 
@@ -120,6 +122,8 @@ gfMalla.graphviz()
 - m: número de aristas (>= n-1)
 - dirigido: el grafo es dirigido?
 - auto: permitir auto-ciclos?
+
+##
 
 ### 30 nodos
 **n = 30, m = 30, dirigido = False, auto=False**
@@ -178,6 +182,8 @@ gfErdosReny.graphviz()
 - dirigido: el grafo es dirigido?
 - auto: permitir auto-ciclos?
 
+##
+
 ### 30 nodos
 **n = 30, p = 0.1, dirigido = False, auto=False**
 
@@ -234,6 +240,8 @@ gfGilbert.graphviz()
 - r: distancia máxima para crear un nodo (0, 1)
 - dirigido: el grafo es dirigido?
 - auto: permitir auto-ciclos?
+
+##
 
 ### 30 nodos
 **n = 30, r = 0.3, dirigido = False, auto=False**
@@ -292,6 +300,8 @@ gfGeografico.graphviz()
 - dirigido: el grafo es dirigido?
 - auto: permitir auto-ciclos?
 
+##
+
 ### 30 nodos
 **n = 30, d = 4, dirigido = False, auto=False**
 
@@ -346,6 +356,8 @@ gfBarabasiAlbert.graphviz()
 ## Modelo Gn **Dorogovtsev-Mendes**
 - n: número de nodos (≥ 3)
 - dirigido: el grafo es dirigido?
+
+##
 
 ### 30 nodos
 **n = 30, dirigido = False**
