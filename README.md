@@ -148,15 +148,21 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoGeografico_n_30_r_3.png" width="500" />
 
+> 30 Nodos y 92 Aristas
+
 ### 100 nodos
 **n = 100, r = 0.3, dirigido = False, auto=False**
 
 <img src="/img/grafoGeografico_n_100_r_3.png" width="500" />
 
+> 100 Nodos y 999 Aristas
+
 ### 500 nodos
 **n = 500, r = 0.1, dirigido = False, auto=False**
 
 <img src="/img/grafoGeografico_n_500_r_1.png" width="500" />
+
+> 500 Nodos y 3,420 Aristas
 
 ## Variante del modelo Gn,d **Barabási-Albert**
 - n: número de nodos (> 0)
@@ -169,15 +175,21 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoBarabasiAlbert_n_30_d_4.png" width="500" />
 
+> 30 Nodos y 58 Aristas
+
 ### 100 nodos
 **n = 100, d = 4, dirigido = False, auto=False**
 
 <img src="/img/grafoBarabasiAlbert_n_100_d_4.png" width="500" />
 
+> 100 Nodos y 197 Aristas
+
 ### 500 nodos
 **n =500, d = 4, dirigido = False, auto=False**
 
 <img src="/img/grafoBarabasiAlbert_n_500_d_4.png" width="500" />
+
+> 500 Nodos y 999 Aristas
 
 ## Modelo Gn **Dorogovtsev-Mendes**
 - n: número de nodos (≥ 3)
@@ -188,12 +200,18 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 
 <img src="/img/grafoDorogovtsevMendes_n_30.png" width="500" />
 
+> 30 Nodos y 57 Aristas
+
 ### 100 nodos
 **n = 100, dirigido = False**
 
 <img src="/img/grafoDorogovtsevMendes_n_100.png" width="500" />
 
+> 100 Nodos y 197 Aristas
+
 ### 500 nodos
 **n = 500, dirigido = False**
 
 <img src="/img/grafoDorogovtsevMendes_n_500.png" width="500" />
+
+> 500 Nodos y 997 Aristas
