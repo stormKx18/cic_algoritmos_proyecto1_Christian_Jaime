@@ -160,3 +160,22 @@ sugiere utilizar **Gephi** (https://gephi.org/).
 **n =500, d = 4, dirigido = False, auto=False**
 
 <img src="/img/grafoBarabasiAlbert_n_500_d_4.png" width="500" />
+
+## Modelo Gn **Dorogovtsev-Mendes**
+- n: número de nodos (≥ 3)
+- dirigido: el grafo es dirigido?
+
+### 30 nodos
+**n = 30, dirigido = False**
+
+<img src="/img/grafoDorogovtsevMendes_n_30.png" width="500" />
+
+### 100 nodos
+**n = 100, dirigido = False**
+
+<img src="/img/grafoDorogovtsevMendes_n_100.png" width="500" />
+
+### 500 nodos
+**n = 500, dirigido = False**
+
+<img src="/img/grafoDorogovtsevMendes_n_500.png" width="500" />
