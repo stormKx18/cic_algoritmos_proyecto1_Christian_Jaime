@@ -169,6 +169,14 @@ gfErdosReny.graphviz()
 ### 30 nodos
 **n = 30, p = 0.1, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoGilbert import grafoGilbert
+gfGilbert = grafoGilbert(n=30, p=0.1, dirigido=False, auto=False)
+gfGilbert.display()
+gfGilbert.graphviz()
+```
+
 <img src="/img/grafoGilbert_n_30_p_10.png" width="500" />
 
 > 30 Nodos y 75 Aristas
@@ -176,12 +184,28 @@ gfErdosReny.graphviz()
 ### 100 nodos
 **n = 100, p = 0.1, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoGilbert import grafoGilbert
+gfGilbert = grafoGilbert(n=100, p=0.1, dirigido=False, auto=False)
+gfGilbert.display()
+gfGilbert.graphviz()
+```
+
 <img src="/img/grafoGilbert_n_100_p_10.png" width="500" />
 
 > 100 Nodos y 915 Aristas
 
 ### 500 nodos
 **n = 500, p = 0.03, dirigido = False, auto=False**
+
+**Código Python:** 
+```
+from grafoGilbert import grafoGilbert
+gfGilbert = grafoGilbert(n=500, p=0.03, dirigido=False, auto=False)
+gfGilbert.display()
+gfGilbert.graphviz()
+```
 
 <img src="/img/grafoGilbert_n_500_p_3.png" width="500" />
 
@@ -196,6 +220,14 @@ gfErdosReny.graphviz()
 ### 30 nodos
 **n = 30, r = 0.3, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoGeografico import grafoGeografico
+gfGeografico = grafoGeografico(n=30, r=0.3, dirigido=False, auto=False)
+gfGeografico.display()
+gfGeografico.graphviz()
+```
+
 <img src="/img/grafoGeografico_n_30_r_3.png" width="500" />
 
 > 30 Nodos y 92 Aristas
@@ -203,12 +235,28 @@ gfErdosReny.graphviz()
 ### 100 nodos
 **n = 100, r = 0.3, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoGeografico import grafoGeografico
+gfGeografico = grafoGeografico(n=100, r=0.3, dirigido=False, auto=False)
+gfGeografico.display()
+gfGeografico.graphviz()
+```
+
 <img src="/img/grafoGeografico_n_100_r_3.png" width="500" />
 
 > 100 Nodos y 999 Aristas
 
 ### 500 nodos
 **n = 500, r = 0.1, dirigido = False, auto=False**
+
+**Código Python:** 
+```
+from grafoGeografico import grafoGeografico
+gfGeografico = grafoGeografico(n=500, r=0.1, dirigido=False, auto=False)
+gfGeografico.display()
+gfGeografico.graphviz()
+```
 
 <img src="/img/grafoGeografico_n_500_r_1.png" width="500" />
 
@@ -223,6 +271,14 @@ gfErdosReny.graphviz()
 ### 30 nodos
 **n = 30, d = 4, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoBarabasiAlbert import grafoBarabasiAlbert
+gfBarabasiAlbert = grafoBarabasiAlbert(n=30, d=4, dirigido=False, auto=False)
+gfBarabasiAlbert.display()
+gfBarabasiAlbert.graphviz()
+```
+
 <img src="/img/grafoBarabasiAlbert_n_30_d_4.png" width="500" />
 
 > 30 Nodos y 58 Aristas
@@ -230,12 +286,28 @@ gfErdosReny.graphviz()
 ### 100 nodos
 **n = 100, d = 4, dirigido = False, auto=False**
 
+**Código Python:** 
+```
+from grafoBarabasiAlbert import grafoBarabasiAlbert
+gfBarabasiAlbert = grafoBarabasiAlbert(n=100, d=4, dirigido=False, auto=False)
+gfBarabasiAlbert.display()
+gfBarabasiAlbert.graphviz()
+```
+
 <img src="/img/grafoBarabasiAlbert_n_100_d_4.png" width="500" />
 
 > 100 Nodos y 197 Aristas
 
 ### 500 nodos
 **n =500, d = 4, dirigido = False, auto=False**
+
+**Código Python:** 
+```
+from grafoBarabasiAlbert import grafoBarabasiAlbert
+gfBarabasiAlbert = grafoBarabasiAlbert(n=500, d=4, dirigido=False, auto=False)
+gfBarabasiAlbert.display()
+gfBarabasiAlbert.graphviz()
+```
 
 <img src="/img/grafoBarabasiAlbert_n_500_d_4.png" width="500" />
 
@@ -248,6 +320,14 @@ gfErdosReny.graphviz()
 ### 30 nodos
 **n = 30, dirigido = False**
 
+**Código Python:** 
+```
+from grafoDorogovtsevMendes import grafoDorogovtsevMendes
+gfDorogovtsevMendes = grafoDorogovtsevMendes(30,dirigido=False)
+gfDorogovtsevMendes.display()
+gfDorogovtsevMendes.graphviz()
+```
+
 <img src="/img/grafoDorogovtsevMendes_n_30.png" width="500" />
 
 > 30 Nodos y 57 Aristas
@@ -255,12 +335,28 @@ gfErdosReny.graphviz()
 ### 100 nodos
 **n = 100, dirigido = False**
 
+**Código Python:** 
+```
+from grafoDorogovtsevMendes import grafoDorogovtsevMendes
+gfDorogovtsevMendes = grafoDorogovtsevMendes(100,dirigido=False)
+gfDorogovtsevMendes.display()
+gfDorogovtsevMendes.graphviz()
+```
+
 <img src="/img/grafoDorogovtsevMendes_n_100.png" width="500" />
 
 > 100 Nodos y 197 Aristas
 
 ### 500 nodos
 **n = 500, dirigido = False**
+
+**Código Python:** 
+```
+from grafoDorogovtsevMendes import grafoDorogovtsevMendes
+gfDorogovtsevMendes = grafoDorogovtsevMendes(500,dirigido=False)
+gfDorogovtsevMendes.display()
+gfDorogovtsevMendes.graphviz()
+```
 
 <img src="/img/grafoDorogovtsevMendes_n_500.png" width="500" />
 
