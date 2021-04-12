@@ -31,7 +31,7 @@ generación:
 - Variante del modelo Gn,d **Barabási-Albert**
 - Modelo Gn **Dorogovtsev-Mendes**
 
-[Descargar instrucciones](/books/book.pdf)
+[Descargar instrucciones](Instrucciones.pdf)
 
 
 ### Resultados
