@@ -1,8 +1,6 @@
 # Proyecto 1 - Biblioteca de generación y manejo de grafos
 
-**INSTITUTO POLITÉCNICO NACIONAL - Centro de Investigación en Computación**
-
----
+## INSTITUTO POLITÉCNICO NACIONAL - Centro de Investigación en Computación
 
 **PRESENTA** Victor Christian Jaime Tamayo
 
