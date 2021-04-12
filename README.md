@@ -31,7 +31,15 @@ generación:
 - Variante del modelo Gn,d **Barabási-Albert**
 - Modelo Gn **Dorogovtsev-Mendes**
 
-[Descargar instrucciones](Instrucciones.pdf)
+La clase grafo debe contar con un método para guardar el grafo en un
+archivo con formato GraphViz (simple).
+
+Entregar:
+1. Link del repositorio en un servidor GIT (sugerido GitHub)
+2. Archivos GV generados, 3 por cada modelo; uno con 30, otro con
+100 y el tercero con 500 nodos.
+3. Imágenes creadas con los grafos generados, 18 en total. Se
+sugiere utilizar Gephi (https://gephi.org/).
 
 
 ### Resultados
