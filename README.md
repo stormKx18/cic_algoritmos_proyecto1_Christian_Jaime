@@ -162,6 +162,8 @@ gfErdosReny.graphviz()
 
 > 500 Nodos y 500 Aristas
 
+---
+
 ## Modelo Gn,p de **Gilbert**
 - n: número de nodos (> 0)
 - p: probabilidad de crear una arista (0, 1)
@@ -212,6 +214,8 @@ gfGilbert.graphviz()
 <img src="/img/grafoGilbert_n_500_p_3.png" width="500" />
 
 > 500 Nodos y 7,263 Aristas
+
+---
 
 ## Modelo Gn,r **geográfico simple**
 - n: número de nodos (> 0)
@@ -264,6 +268,8 @@ gfGeografico.graphviz()
 
 > 500 Nodos y 3,420 Aristas
 
+---
+
 ## Variante del modelo Gn,d **Barabási-Albert**
 - n: número de nodos (> 0)
 - d: grado máximo esperado por cada nodo (> 1)
@@ -314,6 +320,8 @@ gfBarabasiAlbert.graphviz()
 <img src="/img/grafoBarabasiAlbert_n_500_d_4.png" width="500" />
 
 > 500 Nodos y 999 Aristas
+
+---
 
 ## Modelo Gn **Dorogovtsev-Mendes**
 - n: número de nodos (≥ 3)
